@@ -21,11 +21,13 @@
             });
             var t=responseElement.querySelector("iframe");
             l.insertAdjacentElement("beforeend",t)
-        }function r(){
+        }
+    function r(){
             for(var e=document.querySelectorAll(".jobber-spinner"),
             t=0;
             t<e.length;t++)e[t].classList.remove("jobber-spinner")
-        }function n(){
+        }
+    function n(){
             if(200==c.status)t();else{r();
                 var e=document.querySelector(".jobber-inline-work-request"),
                 n=document.createElement("div");
